@@ -1,0 +1,27 @@
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+ # Environment variables (API keys)
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Embedding cache (generated, can be large)
+data/embeddings_cache.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+Brief_Veridion_Project.txt

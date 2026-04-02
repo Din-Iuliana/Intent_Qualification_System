@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "skills": {
+    "code-review": {
+      "source": "supercent-io/skills-template",
+      "sourceType": "github",
+      "computedHash": "199d2fcf315d17a4d6d96a0db7553f11a33ac291a861f93ba0ef5dd9fe1d67bf"
+    },
+    "documentation-writer": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "computedHash": "ee53d65b163cd7eb953a930c95841cfe398cc2c0bd24c06508bbaa07c432be35"
+    },
+    "git-commit": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "computedHash": "2607fc60629b82b257136dd2a7a373f0a4466c0b49df7746d845d59313c99b21"
+    },
+    "python-testing-patterns": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "computedHash": "af7590b87e4094c2027be299ce5b0c315269af250ccdf76f4922b546e42009df"
+    },
+    "security-best-practices": {
+      "source": "supercent-io/skills-template",
+      "sourceType": "github",
+      "computedHash": "c5ddd50338549d28b2edd45cec131d6a231349b0671a093b3b7e3b51d4780ab8"
+    },
+    "ml-pipeline": {
+      "source": "local",
+      "sourceType": "local",
+      "computedHash": "custom-intent-qualification-ml-pipeline"
+    },
+    "data-analysis": {
+      "source": "local",
+      "sourceType": "local",
+      "computedHash": "custom-intent-qualification-data-analysis"
+    },
+    "embedding-strategies": {
+      "source": "local",
+      "sourceType": "local",
+      "computedHash": "custom-intent-qualification-embeddings"
+    }
+  }
+}

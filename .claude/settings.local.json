@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(pip:*)",
+      "Bash(pip3:*)",
+      "Bash(git:*)",
+      "Bash(git init:*)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(touch:*)",
+      "Bash(chmod:*)",
+      "Bash(curl:*)",
+      "Bash(pytest:*)",
+      "Bash(jupyter:*)",
+      "Bash(npx:*)",
+      "Bash(conda:*)",
+      "WebSearch",
+      "Read(//c/Users/**)",
+      "Read(//c//**)"
+    ]
+  },
+  "outputStyle": "Explanatory"
+}
