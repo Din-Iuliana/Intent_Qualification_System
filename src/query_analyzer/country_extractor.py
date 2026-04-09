@@ -6,12 +6,12 @@ def extract_country(query: str) -> dict:
     for region_name in sorted_regions:
         pattern = r"\b" + re.escape(region_name) + r"\b"
         if re.search(pattern, query):
-            return {"country_in": sorted(REGION_NAMES[region_name])}
+            return {"country": sorted(REGION_NAMES[region_name])}
 
     sorted_countries = sorted(COUNTRY_NAMES.keys(), key=len, reverse=True)
     for country_name in sorted_countries:
         pattern = r"\b" + re.escape(country_name) + r"\b"
         if re.search(pattern, query):
-            return {"country": COUNTRY_NAMES[country_name]}
+            return {"country": [COUNTRY_NAMES[country_name]]}
         
     return {}
