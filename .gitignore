@@ -25,3 +25,5 @@ data/embeddings_cache.pkl
 .ipynb_checkpoints/
 
 Brief_Veridion_Project.txt
+
+data/embeddings.npy
